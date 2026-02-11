@@ -28,19 +28,6 @@
 
 *Click screenshots to enlarge*
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="screenshots/Picture3.png" width="180"/>
-  <img src="screenshots/Picture5.png" width="180"/>
-  <img src="screenshots/Picture7.png" width="180"/>
-  <img src="screenshots/Picture9.png" width="180"/>
-  <img src="screenshots/Picture1.png" width="180"/>
-</p>
-
-<p align="center">
-Habits Tracker &nb
-
 ## 📋 Assignment Requirements
 
 | Requirement | Status |
