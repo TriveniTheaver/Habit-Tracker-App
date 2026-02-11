@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#FF6B6B</color>
+    <color name="primary_dark">#C92A2A</color>
+    <color name="primary_light">#FFA8A8</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#4ECDC4</color>
+    <color name="secondary_dark">#2C7A7B</color>
+    <color name="secondary_light">#9DECF9</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#FFE66D</color>
+    <color name="success">#51CF66</color>
+    <color name="warning">#FF922B</color>
+    <color name="error">#1565C0</color>
+    <color name="info">#F59D2E2E</color>
+    
+    <!-- Neutral Colors -->
+    <color name="background">#FFF0E6</color> <!-- Slightly darker warm beige background -->
+    <color name="background_light">#FFF0E6</color> <!-- Slightly darker warm beige background -->
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#F5E0E0</color> <!-- Darker pink shade for cards -->
+    <color name="card_background_light">#FFEBEB</color> <!-- Lighter pink shade for cards -->
+    <color name="card_border">#B85450</color> <!-- Dark pink border for cards -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#868E96</color>
+    <color name="text_disabled">#CED4DA</color>
+    <color name="divider">#DEE2E6</color>
+    
+    <!-- Habit Category Colors -->
+    <color name="fitness">#FF6B6B</color>
+    <color name="nutrition">#51CF66</color>
+    <color name="mental">#4ECDC4</color>
+    <color name="sleep">#845EF7</color>
+    <color name="social">#FFE66D</color>
+    
+    <!-- Mood Colors -->
+    <color name="mood_terrible">#FA5252</color>
+    <color name="mood_bad">#FF922B</color>
+    <color name="mood_neutral">#FFE66D</color>
+    <color name="mood_good">#4ECDC4</color>
+    <color name="mood_great">#51CF66</color>
+    
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

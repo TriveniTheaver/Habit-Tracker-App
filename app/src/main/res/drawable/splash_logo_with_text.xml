@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- App Logo -->
+    <group android:scaleX="0.6" android:scaleY="0.6" android:translateX="40" android:translateY="20">
+        <!-- Background Circle -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M100,20 A50,50 0 1,1 100,120 A50,50 0 1,1 100,20 Z" />
+        
+        <!-- Inner Circle -->
+        <path
+            android:fillColor="@color/primary_light"
+            android:pathData="M100,30 A40,40 0 1,1 100,110 A40,40 0 1,1 100,30 Z" />
+        
+        <!-- Heart Shape -->
+        <path
+            android:fillColor="@color/primary"
+            android:pathData="M100,55 C92,45 80,45 80,60 C80,75 100,100 100,100 C100,100 120,75 120,60 C120,45 108,45 100,55 Z" />
+        
+        <!-- Activity Lines -->
+        <path
+            android:strokeColor="@color/white"
+            android:strokeWidth="2"
+            android:fillColor="@android:color/transparent"
+            android:pathData="M85,70 L95,70 M105,70 L115,70 M90,80 L100,80 M110,80 L120,80" />
+        
+        <!-- Progress Dots -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M90,70 A2,2 0 1,1 90,74 A2,2 0 1,1 90,70 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M110,70 A2,2 0 1,1 110,74 A2,2 0 1,1 110,70 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M95,80 A2,2 0 1,1 95,84 A2,2 0 1,1 95,80 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M115,80 A2,2 0 1,1 115,84 A2,2 0 1,1 115,80 Z" />
+        
+        <!-- Wellness Ring -->
+        <path
+            android:strokeColor="@color/white"
+            android:strokeWidth="3"
+            android:fillColor="@android:color/transparent"
+            android:pathData="M100,25 A45,45 0 1,1 100,115 A45,45 0 1,1 100,25 Z" />
+    </group>
+    
+    <!-- App Name Text -->
+    <group android:translateY="160">
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M20,20 L180,20 L180,40 L20,40 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M20,20 L20,40 L40,40 L40,20 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M60,20 L80,20 L80,40 L60,40 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M100,20 L120,20 L120,40 L100,40 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M140,20 L160,20 L160,40 L140,40 Z" />
+    </group>
+    
+</vector>

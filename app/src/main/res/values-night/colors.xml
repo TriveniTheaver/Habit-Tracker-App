@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Colors -->
+    <color name="background">#1A1B1E</color>
+    <color name="background_light">#1A1B1E</color>
+    <color name="surface">#25262B</color>
+    <color name="card_background">#25262B</color>
+    <color name="text_primary">#F1F3F5</color>
+    <color name="text_secondary">#ADB5BD</color>
+    <color name="text_disabled">#6C757D</color>
+    <color name="divider">#373A40</color>
+    
+    <!-- Adjusted Primary Colors for Dark Mode -->
+    <color name="primary">#FF8787</color>
+    <color name="secondary">#63E6E2</color>
+    <color name="accent">#FFF176</color>
+</resources>

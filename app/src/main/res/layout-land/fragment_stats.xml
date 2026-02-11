@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_light"
+        android:fillViewport="true"
+        android:padding="16dp"
+        android:paddingBottom="80dp"
+        android:scrollbars="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Header -->
+            <LinearLayout
+                android:id="@+id/header_section"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📊"
+                        android:textSize="48sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Your Wellness Stats"
+                        android:textAppearance="@style/TextAppearance.Wellness.H2"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Track your progress and trends"
+                        android:textAppearance="@style/TextAppearance.Wellness.Body"
+                        android:textColor="@color/text_secondary" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Main Content Row -->
+            <LinearLayout
+                android:id="@+id/main_content_row"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/header_section">
+
+                <!-- Left Column - Mood Chart -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_mood_chart"
+                    style="@style/WellnessCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mood Trend (Last 7 Days)"
+                            android:textAppearance="@style/TextAppearance.Wellness.H4"
+                            android:textColor="@color/text_primary" />
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_mood_trend"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="12dp" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Right Column - Stats Cards -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <!-- Habit Stats -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card_habit_stats"
+                        style="@style/WellnessCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Today's Habit Progress"
+                                android:textAppearance="@style/TextAppearance.Wellness.H4"
+                                android:textColor="@color/text_primary" />
+
+                            <TextView
+                                android:id="@+id/text_habit_stats"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="0 of 0 habits completed today"
+                                android:textAppearance="@style/TextAppearance.Wellness.Body"
+                                android:textColor="@color/text_secondary" />
+
+                            <ProgressBar
+                                android:id="@+id/progress_bar_habit_stats"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="12dp"
+                                android:layout_marginTop="12dp"
+                                android:max="100"
+                                android:progress="0"
+                                android:progressTint="@color/primary"
+                                android:progressBackgroundTint="@color/divider" />
+
+                            <TextView
+                                android:id="@+id/text_habit_percentage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="0%"
+                                android:textAppearance="@style/TextAppearance.Wellness.H3"
+                                android:textColor="@color/primary" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Hydration Stats -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/card_hydration_stats"
+                        style="@style/WellnessCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Today's Hydration"
+                                android:textAppearance="@style/TextAppearance.Wellness.H4"
+                                android:textColor="@color/text_primary" />
+
+                            <TextView
+                                android:id="@+id/text_hydration_stats"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="0ml / 2000ml"
+                                android:textAppearance="@style/TextAppearance.Wellness.Body"
+                                android:textColor="@color/text_secondary" />
+
+                            <ProgressBar
+                                android:id="@+id/progress_bar_hydration_stats"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="12dp"
+                                android:layout_marginTop="12dp"
+                                android:max="100"
+                                android:progress="0"
+                                android:progressTint="@color/secondary"
+                                android:progressBackgroundTint="@color/divider" />
+
+                            <TextView
+                                android:id="@+id/text_hydration_percentage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="0%"
+                                android:textAppearance="@style/TextAppearance.Wellness.H3"
+                                android:textColor="@color/secondary" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Weekly Summary -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_weekly_summary"
+                style="@style/WellnessCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/main_content_row">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Weekly Summary"
+                            android:textAppearance="@style/TextAppearance.Wellness.H4"
+                            android:textColor="@color/text_primary" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/button_share_summary"
+                            style="@style/Widget.Material3.Button.OutlinedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Share"
+                            android:textSize="12sp"
+                            app:icon="@drawable/ic_share"
+                            app:iconSize="16dp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Keep up the great work! Your wellness journey is showing positive results."
+                        android:textAppearance="@style/TextAppearance.Wellness.Body"
+                        android:textColor="@color/text_secondary" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>

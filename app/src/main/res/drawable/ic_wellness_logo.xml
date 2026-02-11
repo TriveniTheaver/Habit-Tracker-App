@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background Circle with Gradient Effect -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10 Z" />
+    
+    <!-- Inner Circle for Depth -->
+    <path
+        android:fillColor="@color/primary_light"
+        android:pathData="M60,20 A40,40 0 1,1 60,100 A40,40 0 1,1 60,20 Z" />
+    
+    <!-- Main Wellness Symbol - Stylized Heart with Activity Lines -->
+    <group>
+        <!-- Heart Base -->
+        <path
+            android:fillColor="@color/primary"
+            android:pathData="M60,35 C52,25 40,25 40,40 C40,55 60,80 60,80 C60,80 80,55 80,40 C80,25 68,25 60,35 Z" />
+        
+        <!-- Activity Tracking Lines -->
+        <path
+            android:strokeColor="@color/white"
+            android:strokeWidth="2"
+            android:fillColor="@android:color/transparent"
+            android:pathData="M45,50 L55,50 M65,50 L75,50 M50,60 L60,60 M70,60 L80,60" />
+        
+        <!-- Progress Dots -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M50,50 A2,2 0 1,1 50,54 A2,2 0 1,1 50,50 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M70,50 A2,2 0 1,1 70,54 A2,2 0 1,1 70,50 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M55,60 A2,2 0 1,1 55,64 A2,2 0 1,1 55,60 Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M75,60 A2,2 0 1,1 75,64 A2,2 0 1,1 75,60 Z" />
+    </group>
+    
+    <!-- Wellness Ring/Progress Indicator -->
+    <path
+        android:strokeColor="@color/white"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M60,15 A45,45 0 1,1 60,105 A45,45 0 1,1 60,15 Z" />
+    
+    <!-- Small Wellness Icons Around the Ring -->
+    <group>
+        <!-- Water Drop -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M60,20 L55,25 L60,30 L65,25 Z" />
+        
+        <!-- Exercise -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M95,60 L90,55 L95,50 L100,55 Z" />
+        
+        <!-- Sleep -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M60,100 L55,95 L60,90 L65,95 Z" />
+        
+        <!-- Nutrition -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M25,60 L20,55 L25,50 L30,55 Z" />
+    </group>
+    
+</vector>

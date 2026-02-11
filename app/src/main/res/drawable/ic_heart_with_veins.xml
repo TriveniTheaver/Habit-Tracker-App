@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <!-- Perfect Heart Shape -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M28,50 C28,50 10,32 10,22 C10,16 14,12 20,12 C24,12 28,16 28,16 C28,16 32,12 36,12 C42,12 46,16 46,22 C46,32 28,50 28,50 Z" />
+
+    <!-- Heart Outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/primary_dark"
+        android:strokeWidth="1.5"
+        android:pathData="M28,50 C28,50 10,32 10,22 C10,16 14,12 20,12 C24,12 28,16 28,16 C28,16 32,12 36,12 C42,12 46,16 46,22 C46,32 28,50 28,50 Z" />
+
+</vector>
