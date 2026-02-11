@@ -1,4 +1,10 @@
 # Habit Tracker - Wellness App
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/Picture3.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
+  <img src="screenshots/Picture5.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
+  <img src="screenshots/Pict
 
 ![App Banner](screenshots/Picture1.png)
 
