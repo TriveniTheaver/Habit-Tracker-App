@@ -1,16 +1,11 @@
 # Habit Tracker - Wellness App
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/Picture3.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
-  <img src="screenshots/Picture5.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
-  <img src="screenshots/Picture7.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
-  <img src="screenshots/Picture9.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
-  <img src="screenshots/Picture1.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
-</p>
+| Habits Tracker                                                                          | Mood Journal                                                                            | Hydration Reminder                                                                      | Home Widget                                                                             | App Banner                                                                              |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| <img src="screenshots/Picture3.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture5.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture7.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture9.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture1.png" width="150" height="300" style="object-fit:cover;"> |
 
-
-
+*Click screenshots to enlarge*
 
 ## 📱 Features
 | Feature | Description |
@@ -29,14 +24,6 @@
 | **Persistence** | SharedPreferences |
 | **Notifications** | AlarmManager, WorkManager |
 | **UI** | Material Design, XML |
-
-## 📸 Screenshots
-
-| Habits Tracker                                                                          | Mood Journal                                                                            | Hydration Reminder                                                                      | Home Widget                                                                             | App Banner                                                                              |
-| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| <img src="screenshots/Picture3.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture5.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture7.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture9.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture1.png" width="150" height="300" style="object-fit:cover;"> |
-
-*Click screenshots to enlarge*
 
 
 ## 📋 Assignment Requirements
