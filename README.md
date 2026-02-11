@@ -4,9 +4,19 @@
 <p align="center">
   <img src="screenshots/Picture3.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
   <img src="screenshots/Picture5.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
-  <img src="screenshots/Pict
+  <img src="screenshots/Picture7.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
+  <img src="screenshots/Picture9.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
+  <img src="screenshots/Picture1.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
+</p>
 
-![App Banner](screenshots/Picture1.png)
+<p align="center">
+  Habits Tracker &nbsp;&nbsp;&nbsp;
+  Mood Journal &nbsp;&nbsp;&nbsp;
+  Hydration Reminder &nbsp;&nbsp;&nbsp;
+  Notification &nbsp;&nbsp;&nbsp;
+  App Banner
+</p>
+
 
 ## 📱 Features
 | Feature | Description |
