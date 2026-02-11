@@ -9,13 +9,7 @@
   <img src="screenshots/Picture1.png" width="180" height="360" style="object-fit: cover; margin:5px;" />
 </p>
 
-<p align="center">
-  Habits Tracker &nbsp;&nbsp;&nbsp;
-  Mood Journal &nbsp;&nbsp;&nbsp;
-  Hydration Reminder &nbsp;&nbsp;&nbsp;
-  Notification &nbsp;&nbsp;&nbsp;
-  App Banner
-</p>
+
 
 
 ## 📱 Features
@@ -38,11 +32,12 @@
 
 ## 📸 Screenshots
 
-| Habits Tracker | Mood Journal | Hydration Reminder | Home Widget |
-|----------------|--------------|-------------------|-------------|
-| ![Habits](screenshots/Picture3.png) | ![Mood](screenshots/Picture5.png) | ![Reminder](screenshots/Picture7.png) | ![Notification](screenshots/Picture9.png) |
+| Habits Tracker                                                                          | Mood Journal                                                                            | Hydration Reminder                                                                      | Home Widget                                                                             | App Banner                                                                              |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| <img src="screenshots/Picture3.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture5.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture7.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture9.png" width="150" height="300" style="object-fit:cover;"> | <img src="screenshots/Picture1.png" width="150" height="300" style="object-fit:cover;"> |
 
 *Click screenshots to enlarge*
+
 
 ## 📋 Assignment Requirements
 
